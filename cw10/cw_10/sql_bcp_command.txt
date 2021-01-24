@@ -1,0 +1,13 @@
+ CREATE TABLE [AdventureWorksDW2019].[dbo].[CUSTOMERS_290923](
+			 [ProductKey] INTEGER
+			,[CurrencyAlternateKey] VARCHAR(10)
+			,[First_Name] VARCHAR(200)
+			,[Last_Name] VARCHAR(200)
+			,[OrderDateKey] VARCHAR(200)
+			,[OrderQuantity] VARCHAR(200)
+			,[UnitPrice]FLOAT
+			,[SecretCode] VARCHAR(20));
+
+bcp [AdventureWorksDW2019].[dbo].[CUSTOMERS_290923] format nul -c -T -t, -f D:\a_main_dir\V_rok\bdp2\bazy_danych_przestrzennych_2\cw10\fmtFile1.fmt
+
+bcp [AdventureWorksDW2019].[dbo].[CUSTOMERS_290923] IN D:\a_main_dir\V_rok\bdp2\bazy_danych_przestrzennych_2\cw10\re1\tosave.csv -f D:\a_main_dir\V_rok\bdp2\bazy_danych_przestrzennych_2\cw10\fmtFile1.fmt -T

@@ -1,0 +1,17 @@
+2021-01-24_10-49-39 - Downloading - SUCCESS
+2021-01-24_10-49-40 - Unziping - SUCCESS
+2021-01-24_10-49-40 - Deleting empty lines - SUCCESS
+2021-01-24_10-49-40 - Moving empty lines to bad_file - SUCCESS
+2021-01-24_10-49-40 - Leaving unique lines - SUCCESS
+2021-01-24_10-49-40 - LEaving columns with certain length - SUCCESS
+2021-01-24_10-49-40 - Quantity - SUCCESS
+2021-01-24_10-49-40 - Comparing with ol - SUCCESS
+2021-01-24_10-49-40 - Changing Name - SUCCESS
+2021-01-24_10-49-41 - Creating table - SUCCESS
+2021-01-24_10-49-41 - DB load data - SUCCESS
+2021-01-24_10-49-41 - Moving file - SUCCESS
+2021-01-24_10-49-41 - Sending email - SUCCESS
+2021-01-24_10-49-42 - Random string - SUCCESS
+2021-01-24_10-49-43 - Creating cvs - SUCCESS
+2021-01-24_10-49-43 - Adding to archive - SUCCESS
+2021-01-24_10-49-43 - Sending email - SUCCESS
